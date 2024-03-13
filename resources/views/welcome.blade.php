@@ -9,19 +9,21 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>GIT</title>
 </head>
-<body class="bg-black">
+<body class=" min-h-screen w-full flex items-start">
     <div class="text-center">
     <h1 class="text-title-1 text-red-800 shadow-hard">TITULO</h1>
     <p class="h-auto text-red-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, illo laborum facilis a quis explicabo culpa nihil unde aliquid ea dicta nam impedit repellat minima, recusandae natus odio esse hic.</p>
-    </br>
+    </br> 
+</div>
     <x-button 
+    class="flex"
     type="button"
-    variation="primary"
+    variation="outline"
     size="small"
     icon="person"
     icon-position="left"
-    text="Login In"
+    text="Botão"
     ></x-button>
-</div>
+
 </body>
 </html>
