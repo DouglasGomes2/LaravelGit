@@ -22,8 +22,8 @@
     size="small"
     icon="person"
     icon-position="left"
-    text="Botão"
+    text=""
     ></x-button>
 
 </body>
-</html>\
+</html>
